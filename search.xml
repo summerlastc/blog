@@ -31,11 +31,11 @@
     
     
     <entry>
-      <title>第一个博客</title>
+      <title>hexo-Markdown基本操作</title>
       <link href="/2020/01/14/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/"/>
       <url>/2020/01/14/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</url>
       
-        <content type="html"><![CDATA[<p>后续更新<br><img src="http://q41kajihu.bkt.clouddn.com/20200114041313_OIBYQj_avatar.jpeg" alt=""></p><pre><code class="language-java">package com.hello.main;public class Main {        public static void main(String[] args) {        System.out.println(&quot;Hello Word&quot;);    }}</code></pre><pre><code>server {      listen       443 ssl;      server_name  xiangzhangshugongyi.com;      ssl_certificate      cert/214487958220243.pem;      ssl_certificate_key  cert/214487958220243.key;      ssl_session_cache    shared:SSL:1m;      ssl_session_timeout  5m;      ssl_ciphers  HIGH:!aNULL:!MD5;      ssl_prefer_server_ciphers  on;      location / {          proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;          proxy_set_header Host $http_host;          proxy_set_header X-Forwarded-Proto https;          proxy_redirect off;          proxy_connect_timeout      240;          proxy_send_timeout         240;          proxy_read_timeout         240;          # note, there is not SSL here! plain HTTP is used          proxy_pass http://127.0.0.1:8080;      }  }</code></pre>]]></content>
+        <content type="html"><![CDATA[<p><code>style<br><code>style</code></p><pre><code class="language-java">public static void int a=3;String b=&quot;sh&quot;System.out.println(&quot;shenm&quot;) </code></pre>]]></content>
       
       
       <categories>
