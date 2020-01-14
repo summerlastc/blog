@@ -23,7 +23,7 @@
 
 <link href="/css/style.css?v=1.0.1" rel="stylesheet">
 
-<link href="/css/hl_theme/sublime.css?v=1.0.1" rel="stylesheet">
+<link href="/css/hl_theme/github-gist.css?v=1.0.1" rel="stylesheet">
 
 <link href="//cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet">
 <link href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -124,14 +124,6 @@
         
     
         
-        <a title="qq" href="http://wpa.qq.com/msgrd?v=3&uin=1663701826&site=qq&menu=yes" target="_blank">
-            
-                <svg class="iconfont-svg" aria-hidden="true">
-                    <use xlink:href="#icon-qq"></use>
-                </svg>
-            
-        </a>
-        
     
         
     
@@ -192,7 +184,7 @@
     <div><a class="about  hasFriend  site_url"  href="/about">关于</a><a style="width: 50%"  class="friends">友链</a></div>
 </div>
 <input type="hidden" id="yelog_site_posts_number" value="2">
-<input type="hidden" id="yelog_site_word_count" value="9.8k">
+<input type="hidden" id="yelog_site_word_count" value="9.9k">
 <div style="display: none">
     <span id="busuanzi_value_site_uv"></span>
     <span id="busuanzi_value_site_pv"></span>
@@ -296,12 +288,12 @@
     </div>
     <div class="article-meta">
         
-        创建时间:<time class="date" title='更新时间: 2020-01-14 16:32:41'>2020-01-14 13:14</time>
+        创建时间:<time class="date" title='更新时间: 2020-01-14 17:13:35'>2020-01-14 13:14</time>
         
     </div>
     <div class="article-meta">
         
-        <span>字数:11</span>
+        <span>字数:90</span>
         
         
         <span id="busuanzi_container_page_pv">
@@ -349,9 +341,42 @@
       
         <p>后续更新<br>
 <img src="http://q41kajihu.bkt.clouddn.com/20200114041313_OIBYQj_avatar.jpeg" alt=""></p>
-<figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs actionscript"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> mian<br>ghhkhkhkk<br></code></pre></td></tr></table></figure>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs java">code snippet<br></code></pre></td></tr></table></figure>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs python">xxx<br></code></pre></td></tr></table></figure>
+<pre><code class="language-java">package com.hello.main;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        System.out.println(&quot;Hello Word&quot;);
+    }
+}
+</code></pre>
+<pre><code>server {
+      listen       443 ssl;
+      server_name  xiangzhangshugongyi.com;
+
+      ssl_certificate      cert/214487958220243.pem;
+      ssl_certificate_key  cert/214487958220243.key;
+
+      ssl_session_cache    shared:SSL:1m;
+      ssl_session_timeout  5m;
+
+      ssl_ciphers  HIGH:!aNULL:!MD5;
+      ssl_prefer_server_ciphers  on;
+
+      location / {
+          proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+          proxy_set_header Host $http_host;
+          proxy_set_header X-Forwarded-Proto https;
+          proxy_redirect off;
+          proxy_connect_timeout      240;
+          proxy_send_timeout         240;
+          proxy_read_timeout         240;
+          # note, there is not SSL here! plain HTTP is used
+          proxy_pass http://127.0.0.1:8080;
+      }
+  }
+</code></pre>
+
       
        <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 1663701826@qq.com </span>
     </div>
@@ -636,16 +661,6 @@
     }
     
 
-    
-    .post .pjax article :not(pre) > code {
-        color: #24292e;
-        font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
-        background-color: rgba(27,31,35,.05);
-        border-radius: 3px;
-        font-size: 85%;
-        margin: 0;
-        padding: .2em .4em;
-    }
     
 </style>
 
