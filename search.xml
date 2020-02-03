@@ -4,11 +4,119 @@
   
     
     <entry>
+      <title>剪辑基础-1</title>
+      <link href="/2020/01/22/%E5%89%AA%E8%BE%91%E5%9F%BA%E7%A1%80/"/>
+      <url>/2020/01/22/%E5%89%AA%E8%BE%91%E5%9F%BA%E7%A1%80/</url>
+      
+        <content type="html"><![CDATA[<h1>PR快捷键</h1><table><thead><tr><th>命令</th><th style="text-align:left">功能</th></tr></thead><tbody><tr><td>C</td><td style="text-align:left">截取</td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> 设计 </category>
+          
+          <category> 视频 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Design </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>调色-1</title>
+      <link href="/2020/01/20/%E8%B0%83%E8%89%B2-1/"/>
+      <url>/2020/01/20/%E8%B0%83%E8%89%B2-1/</url>
+      
+        <content type="html"><![CDATA[<p>@[Toc]</p><h1>人物照片</h1><h2 id="调色思路">调色思路</h2><ol><li>整体的基调，人物的凸显，层次分明。</li><li>打开Lr,首先调整色温色调</li><li>查看直方图，确保颜色细节丰富</li><li>微调各种参数，除了曲线，对于影响整体的参数无需去动</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 设计 </category>
+          
+          <category> 图形 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Desin </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux命令</title>
+      <link href="/2020/01/19/Linux%E5%91%BD%E4%BB%A4/"/>
+      <url>/2020/01/19/Linux%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<h1>常用命令</h1><table><thead><tr><th>命令</th><th style="text-align:left">功能</th></tr></thead><tbody><tr><td>文件读写授权</td><td style="text-align:left">chmod   -R   777  dirpath</td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> 专题 </category>
+          
+          <category> CentOS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>CentOS-问题</title>
+      <link href="/2020/01/19/%E9%97%AE%E9%A2%98/"/>
+      <url>/2020/01/19/%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<p>@[Toc]</p><h2 id="centos7下yum升级被PackageKit锁定">centos7下yum升级被PackageKit锁定</h2><p>(1)  centos7下，打开： <code>/etc/yum/pluginconf.d/langpacks.conf</code></p><p>(2) 将第一行：<code>enable=1改为enable=0</code></p><p>(3) 重启centos7，执行sudo yum update</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 专题 </category>
+          
+          <category> CentOS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CentOS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>数据库</title>
       <link href="/2020/01/16/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
       <url>/2020/01/16/%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
       
-        <content type="html"><![CDATA[<p>音乐</p>]]></content>
+        <content type="html"><![CDATA[<p>有待更新</p>]]></content>
       
       
       <categories>
@@ -31,16 +139,18 @@
     
     
     <entry>
-      <title>登录</title>
+      <title>项目1-1</title>
       <link href="/2020/01/16/%E7%99%BB%E5%BD%95/"/>
       <url>/2020/01/16/%E7%99%BB%E5%BD%95/</url>
       
-        <content type="html"><![CDATA[<p>yinyuwe</p>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
       
       <categories>
           
           <category> 项目 </category>
+          
+          <category> 项目1 </category>
           
       </categories>
       
@@ -60,7 +170,7 @@
       <link href="/2020/01/15/%E5%9F%BA%E7%A1%80/"/>
       <url>/2020/01/15/%E5%9F%BA%E7%A1%80/</url>
       
-        <content type="html"><![CDATA[<p>有待更新</p>]]></content>
+        <content type="html"><![CDATA[<p>有待更新<br><img src="http://img.luoyan.work/20200204014952_fMDTaQ_%E5%A3%81%E7%BA%B8-%E6%96%B0%E5%9E%A3%E7%BB%93%E8%A1%A3.jpeg" alt=""></p>]]></content>
       
       
       <categories>
@@ -114,7 +224,7 @@
       <link href="/2020/01/14/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/"/>
       <url>/2020/01/14/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</url>
       
-        <content type="html"><![CDATA[<p>有待更新</p>]]></content>
+        <content type="html"><![CDATA[<p>@[Toc]</p><h2 id="Quistion-hexo-totalcount-is-not-defined">Quistion: <code>hexo  totalcount is not defined</code></h2><p>Solution: <code>npm install hexo-wordcount --save</code></p>]]></content>
       
       
       <categories>
